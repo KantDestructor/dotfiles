@@ -1,0 +1,47 @@
+## ALIASES
+ # ls
+   alias ls='ls --color=auto'
+   alias ll='ls -l'
+   alias la='ls -a'
+   alias l='ls'
+ # cd
+   alias ..='cd ..'
+   alias cd..='cd ..'
+
+# editing
+alias ne='emacs -nw'
+alias s='subl'
+
+# misc
+alias j='jobs'
+alias composer='php ~/Binaries/composer.phar'
+alias dropbox='~/.dropbox-dist/dropboxd &'
+alias clean="find . -name '*~' -delete"
+alias blih="~/tmpblih/blih.py -u 'adrien.promtep@epitech.eu'"
+
+# keyboard
+alias fr='setxkbmap fr'
+alias us='setxkbmap us'
+
+# grep
+export GREP_COLOR='1;32'
+
+# gcc
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# path
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/Binaries
+
+# php
+alias php-srv="php -S localhost:8000 -t . -d display_errors=1"
+
+# git
+alias log='git log --graph --oneline --decorate'
+alias sgit='git status --short'
+alias commit='git commit -m'
+alias push='git push origin'
+
+# cpp pool
+alias nomain="echo -e 'main.cpp\nMakefile' >> .gitignore"
+alias ignore=">> .gitignore echo"
+
