@@ -1,15 +1,17 @@
 ## ALIASES
- # ls
+
+# ls
    alias ls='ls --color=auto'
    alias ll='ls -l'
    alias la='ls -a'
    alias l='ls'
- # cd
+# cd
    alias ..='cd ..'
    alias cd..='cd ..'
 
 # editing
 alias ne='emacs -nw'
+alias nv='nvim'
 alias s='subl'
 
 # misc
@@ -29,9 +31,6 @@ export GREP_COLOR='1;32'
 # gcc
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# path
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/Binaries
-
 # php
 alias php-srv="php -S localhost:8000 -t . -d display_errors=1"
 
@@ -40,8 +39,5 @@ alias log='git log --graph --oneline --decorate'
 alias sgit='git status --short'
 alias commit='git commit -m'
 alias push='git push origin'
-
-# cpp pool
-alias nomain="echo -e 'main.cpp\nMakefile' >> .gitignore"
 alias ignore=">> .gitignore echo"
 
