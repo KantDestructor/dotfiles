@@ -1,0 +1,49 @@
+## Debian
+
+
+## Discord https://discordapp.com/api/download?platform=linux&format=deb"
+## Atom https://atom.io/dowload/deb
+## Rust curl https://sh.rustup.rs -sSf | sh
+
+
+# Utils
+sudo
+zsh
+manpages
+manpages-dev
+git
+noevim
+emacs
+ssh
+curl
+netcat
+terminator
+make
+
+# Haskell
+haskell-plateform
+haskell-plateform-doc
+
+# C/C++
+gcc-defaults
+llvm-defaults
+cmake
+
+# Python
+python2
+python3
+python-pip
+python3-pip
+python3-doc
+
+# PHP
+php
+php-all-dev
+composer
+
+# NodeJs
+nodejs
+nodejs-dbg
+nodejs-dev
+nodejs-legacy
+
